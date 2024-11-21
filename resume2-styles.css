@@ -1,0 +1,80 @@
+/* Overall edits*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.body{
+    background-color: #fff;
+}
+/* grid-container section edits*/
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 60%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 30.3125em black;
+}
+.grid-container p{
+    line-height: 1.5625em;
+}
+/* Side-container section edits*/
+.side-container .contact,.Skills{
+    margin-top: 1.875em;
+    margin-bottom: 1.875em;
+}
+.side-container{
+    grid-column-start: 1;
+    padding: 0 1.5625em 0 1.5625em;
+    background-color: rgb(34, 59, 113);
+    color: white;
+}
+.side-container p , .Main-Container p{
+    font-size: .95em;
+    padding: 0.25em;
+}
+.side-container h2{
+    border-bottom: 3px solid white;
+    padding-bottom: 0.3125em;
+}
+/* Main-container section edits*/
+.Main-Container{
+    grid-column-start: 2;
+    padding: 0 2.5em 0 2.5em;
+    margin-top: 3.125em;
+    margin-bottom: 3.125em;
+    background-color: white;
+    color: black;
+}
+.Main-Container h2{
+    color: rgb(39, 84, 90);
+}
+.Education,.Work-Experience,.Projects, .Proffessional-Summary{
+    margin-top: 0.625em;
+    margin-bottom: 0.625em;
+}
+
+/* header-side section edits*/
+.header-side{
+    text-align: center;
+    padding: 1.25em 0 1.25em 0;
+}
+.header-side img{
+    border-radius: 600px;
+    max-width: 14.0625em;
+    max-height: 14.0625em;  
+}
+.header-side img{
+    border-radius: 600px;
+    max-width: 14.0625em;
+    max-height: 14.0625em;  
+}
+
+/* general section edits*/
+h2{
+    padding-bottom: 0.3125em;
+    margin-bottom: 0.3125em;
+}
+h3{
+    margin-top: 1.25em;
+}
